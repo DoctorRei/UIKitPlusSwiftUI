@@ -12,7 +12,6 @@
 		E99B3E442AE2CAE2008DC3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99B3E432AE2CAE2008DC3A6 /* Assets.xcassets */; };
 		E99B3E472AE2CAE2008DC3A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99B3E462AE2CAE2008DC3A6 /* Preview Assets.xcassets */; };
 		E99E1B612AE6934F00E98668 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99E1B602AE6934F00E98668 /* SliderView.swift */; };
-		E9A3350C2AE7C68B00859D4D /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A3350B2AE7C68B00859D4D /* TextView.swift */; };
 		E9A3350E2AE7E9FA00859D4D /* GameSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A3350D2AE7E9FA00859D4D /* GameSliderView.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +22,6 @@
 		E99B3E432AE2CAE2008DC3A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E99B3E462AE2CAE2008DC3A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E99E1B602AE6934F00E98668 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
-		E9A3350B2AE7C68B00859D4D /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		E9A3350D2AE7E9FA00859D4D /* GameSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				E99B3E3E2AE2CAE1008DC3A6 /* UIKitPlusSwiftUI */,
+				E99B3E432AE2CAE2008DC3A6 /* Assets.xcassets */,
 				E99B3E3D2AE2CAE1008DC3A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,10 +58,7 @@
 			children = (
 				E99B3E3F2AE2CAE1008DC3A6 /* UIKitPlusSwiftUIApp.swift */,
 				E99B3E412AE2CAE1008DC3A6 /* ContentView.swift */,
-				E9A3350D2AE7E9FA00859D4D /* GameSliderView.swift */,
-				E99E1B602AE6934F00E98668 /* SliderView.swift */,
-				E9A3350B2AE7C68B00859D4D /* TextView.swift */,
-				E99B3E432AE2CAE2008DC3A6 /* Assets.xcassets */,
+				E9A335102AE7F05500859D4D /* Views */,
 				E99B3E452AE2CAE2008DC3A6 /* Preview Content */,
 			);
 			path = UIKitPlusSwiftUI;
@@ -74,6 +70,15 @@
 				E99B3E462AE2CAE2008DC3A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9A335102AE7F05500859D4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9A3350D2AE7E9FA00859D4D /* GameSliderView.swift */,
+				E99E1B602AE6934F00E98668 /* SliderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +154,6 @@
 				E99E1B612AE6934F00E98668 /* SliderView.swift in Sources */,
 				E99B3E422AE2CAE1008DC3A6 /* ContentView.swift in Sources */,
 				E9A3350E2AE7E9FA00859D4D /* GameSliderView.swift in Sources */,
-				E9A3350C2AE7C68B00859D4D /* TextView.swift in Sources */,
 				E99B3E402AE2CAE1008DC3A6 /* UIKitPlusSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

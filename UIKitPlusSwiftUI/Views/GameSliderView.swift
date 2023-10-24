@@ -24,10 +24,13 @@ struct GameSliderView: View {
                 .padding()
             
             HStack {
-                TextView(value: 0)
+                Text("0")
                     .padding()
-                SliderView(value: $correntValue, alpha: alpha, color: color)
-                TextView(value: 100)
+                SliderView(
+                    value: $correntValue,
+                    alpha: alpha,
+                    color: color)
+                Text("100")
                     .padding()
             }
         }

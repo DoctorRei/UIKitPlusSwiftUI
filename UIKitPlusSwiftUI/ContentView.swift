@@ -15,7 +15,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            GameSliderView(
+            GameSliderView (
                 correntValue: $currentValue,
                 targetValue: targetValue,
                 color: .black,
